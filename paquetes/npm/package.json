@@ -1,0 +1,12 @@
+{
+  "name": "fundamentosnodejs",
+  "version": "1.0.0",
+  "description": "Contiene todos los eventos que se generan por nuestro código _(Funciones, peticiones, etc)_, estos eventos quedan en una cola que van pasando uno a uno al Event Loop. #### _Event Loop_",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

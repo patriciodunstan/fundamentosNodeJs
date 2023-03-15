@@ -1,0 +1,8 @@
+{
+    "editor.experimental.pasteActions.enabled": true,
+    "typescript.experimental.tsserver.web.enableProjectWideIntellisense": true,
+    "typescript.tsserver.experimental.enableProjectDiagnostics": true,
+    "gitlens.views.experimental.multiSelect.enabled": true,
+    "eslint.experimental.useFlatConfig": true,
+    "terminal.integrated.shellIntegration.suggestEnabled": true
+}

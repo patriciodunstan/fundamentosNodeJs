@@ -8,7 +8,8 @@ function router (req, res) {
 
     switch (req.url){
         case '/hola':
-            res.write('hola, que tal');
+            let saludo = hola();
+            res.write(saludo);
             res.end();
             break;
 
@@ -26,5 +27,13 @@ function router (req, res) {
     res.end();*/
 }
 
+function hola() {
+    return 'Hola, que tal';
+}
 
 console.log("escuchando http en el puerto 3000")
+
+// node --inspect modulos/http.js
+//abries el puerto en un navegador despues en una ventana nueva escribes chrome://inspect y abres las devstool
+
+
